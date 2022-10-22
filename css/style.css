@@ -67,12 +67,10 @@
 .faq-content h1 {
   font-size: 2rem;
   margin-bottom: 2.5rem;
+  color: var(--color-vdkds-blue);
 }
 .question-list {
   max-width: 50ch;
-}
-.question-list dt {
-  color: var(--color-vdkgray-blue);
 }
 .question-list dd {
   text-align: left;
@@ -94,15 +92,16 @@
 }
 .question-list button {
   width: 100%;
+  margin-bottom: 0.625rem;
   display: grid;
   grid-template-columns: auto auto;
   gap: 0.625rem;
-  margin-bottom: 0.625rem;
-  font-size: 0.875rem;
-  cursor: pointer;
-  text-align: left;
   justify-content: space-between;
   align-items: start;
+  font-size: 0.875rem;
+  color: var(--color-dkgray-blue);
+  text-align: left;
+  cursor: pointer;
 }
 .question-list button::after {
   content: "";
@@ -116,6 +115,7 @@
 }
 
 .question-list button[aria-expanded="true"] {
+  color: var(--color-vdkds-blue);
   font-weight: bold;
 }
 .question-list button:hover {
