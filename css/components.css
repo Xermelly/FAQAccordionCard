@@ -1,0 +1,33 @@
+:root {
+  /*Colors-Primary-Text*/
+  --color-vdkds-blue: hsl(238, 29%, 16%);
+  --color-soft-red: hsl(14, 88%, 65%);
+
+  /*Color-Gradient*/
+  --gradient-violetblue: linear-gradient(
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+
+  /*Colors-Neutral-Text*/
+  --color-vdkgray-blue: hsl(237, 12%, 33%);
+  --color-dkgray-blue: hsl(240, 6%, 50%);
+
+  /*Dividers*/
+  --color-lightgray-blue: hsl(240, 5%, 91%);
+}
+.color-vdkds-blue {
+  color: var(--color-vdkds-blue);
+}
+.color-soft-red {
+  color: var(--color-soft-red);
+}
+.color-vdkgray-blue {
+  color: var(--color-vdkgray-blue);
+}
+.color-dkgray-blue {
+  color: var(--color-dkgray-blue);
+}
+.color-lightgray-blue {
+  color: var(--color-lightgray-blue);
+}

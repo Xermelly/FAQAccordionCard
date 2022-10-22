@@ -6,10 +6,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FAQ</title>
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-
+  <main class="container">
+    <div class="bg-deco">
+      <section class="faq-container" aria-label="">
+        <picture class="img-intro">
+          <source media="(max-width: 900px)" srcset="./images/illustration-woman-online-mobile.svg">
+          <img src="./images/illustration-woman-online-desktop.svg" alt="Woman in front of a monitor">
+        </picture>
+        <div class="faq-content">
+          <h1>FAQ</h1>
+          <dl class="question-list">
+            <div>
+              <dt><button aria-controls="question1" aria-expanded="false">How many team members can i invite?</button></dt>
+              <dd id="question1">You can invite 12 members to you team.</dd>
+            </div>
+            <div>
+              <dt><button aria-controls="question2" aria-expanded="false">What is the maximum file upload size?</button></dt>
+              <dd id="question2">No more than 2GB. All files in your account must fit your allotted storage space.</dd>
+            </div>
+            <div>
+              <dt><button aria-controls="question3" aria-expanded="false">How i reset my password?</button></dt>
+              <dd id="question3">Yes you can.</dd>
+            </div>
+            <div>
+              <dt><button aria-controls="question4" aria-expanded="false">Can i cancel my subscription?</button></dt>
+              <dd id="question4">You can only cancel your subscription just in the first 24 hours.</dd>
+            </div>
+            <div>
+              <dt><button aria-controls="question5" aria-expanded="false">Do you provide additional support?</button></dt>
+              <dd id="question5">Yes.</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
